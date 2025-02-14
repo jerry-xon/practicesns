@@ -4,7 +4,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import Entypo from "@expo/vector-icons/Entypo";
 import { useFonts } from "expo-font";
 import { OtpInput } from "react-native-otp-entry";
-const App = () => {
+const OTP = () => {
   const [loaded] = useFonts({
     "Karantina-Regular": require("./assets/fonts/Karantina-Regular.ttf"),
     Outfit: require("./assets/fonts/Outfit.ttf"),
@@ -61,7 +61,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default OTP;
 
 const styles = StyleSheet.create({
   ScreenBG: {

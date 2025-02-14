@@ -17,7 +17,7 @@ import {
   const App = () => {
     const [loaded] = useFonts({
       "Karantina-Regular": require("./assets/fonts/Karantina-Regular.ttf"),
-      Outfit: require("./assets/fonts/Outfit.ttf"),
+      'Outfit': require("./assets/fonts/Outfit.ttf"),
     });
     const [ischecked, setisChecked] = useState({
       FootBall: false,
